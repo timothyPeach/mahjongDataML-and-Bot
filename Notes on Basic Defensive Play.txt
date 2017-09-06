@@ -1,0 +1,13 @@
+If Reach:
+
+100% safe = Last Honor
+
+Very safe = Second to last Honor
+
+Followtiles = Post-Reach tiles (start keeping track of what each player discards.)
+
+Discards in reachers discard pile (if there are 2+ piles, common elements first, then some method that finds the best tile from these tiers for each player.)
+
+After this, we move into a land I need to generalize MUCH further.
+
+It should seek to, based on what we know about the discarded tiles, look to a table of all the possible (reasonable) wait shapes, their likelihoods, and determine what is the least dangerous tile.  This can be used vs all 3 players simultaneously.
