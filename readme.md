@@ -1,3 +1,10 @@
+LATEST UPDATE: 09/18/2017:
+
+New notebook mainAutomation.ipynb added.  It only works on my computer for now, but this clicks around and plays a 4-player reach mahjong game on tenhou.net/0 in either mainLobby or against CPUs to debug and add stuff.  Right now it can play a whole game with decent offense, but no predictive model or defense has been incorporated yet.  Next steps are to make the defense algorithm so that all 3 important components (attack, predict if enemy is dangerous, defense), and have them all communicate so that a better final decision can be made.  It should be noted that in the case the enemy just reaches (revealing that he needs only one final tile) we will probably just abandon our hand if we're not close to our own.
+
+tldr, lots of work to do, early phase.
+
+==============
 gameData folder removed, because it is too large.
 goodPlz folder's t2.csv removed, because it is also too large.
 
