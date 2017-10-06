@@ -8,6 +8,8 @@ Edit (10/06/2017): Just a brief couple things:
 1) This bot is not generalized to play on all screen resolutions yet.  That'll be done a bit later.  I'm more concerned just about getting it to work very well on my own setup.
 
 2) Lots of ideas are not fully implemented yet.
+
+3) Below, it says we have not completed certain things, but I do have all three parts described below working together now.
 ===
 
 The bot (although the defense portion is still unfinished) will be broken into the following parts:
