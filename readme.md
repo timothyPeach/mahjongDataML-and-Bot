@@ -2,6 +2,14 @@ Welcome to my Reach Mahjong Bot!
 
 Reach Mahjong is a 4-player rummy-style tile game where players are all trying to complete their hands (to earn points), but also trying to avoid dealing into their opponents' hands (losing points.)
 
+===
+Edit (10/06/2017): Just a brief couple things:
+
+1) This bot is not generalized to play on all screen resolutions yet.  That'll be done a bit later.  I'm more concerned just about getting it to work very well on my own setup.
+
+2) Lots of ideas are not fully implemented yet.
+===
+
 The bot (although the defense portion is still unfinished) will be broken into the following parts:
 
 1) /An offense algorithm/ that tries to reach a complete hand as fast as possible, while also taking at most a second or two to output a decision.  There are many algorithms in the code, but only one is being used right now.
